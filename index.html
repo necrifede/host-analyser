@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="css/pico.min.css" />
+    </head>
+    <body>
+        <main>
+            <form id="form">
+                <label>Host:</label>
+                <input id="input" type="text" placeholder="Insert your IP here" required />
+                <small>For example: 142.251.36.142</small>
+                <button id="submit" type="submit">Retrieve Info</button>
+            </form>
+            <div>
+                <pre id="results"></pre>
+            </div>
+        </main>
+        <script type="module" src="./src/index.js" async></script>
+    </body>
+</html>
