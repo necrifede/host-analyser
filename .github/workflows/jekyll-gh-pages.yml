@@ -29,13 +29,13 @@ jobs:
         uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v3
+      - name: Create config file
+        run: echo -e "const URL = 'https://ip-reputation-geoip-and-detect-vpn.p.rapidapi.com';\nconst API_KEY = 'a12115139emshfe0e1362dec4964p1904dcjsnd6c2c48211aa';\nconst API_HOST = 'ip-reputation-geoip-and-detect-vpn.p.rapidapi.com' ;\n\nexport { URL, API_KEY, API_HOST };" > config.js
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
-      - name: Create config file
-        run: echo -e "const URL = 'https://ip-reputation-geoip-and-detect-vpn.p.rapidapi.com';\nconst API_KEY = 'a12115139emshfe0e1362dec4964p1904dcjsnd6c2c48211aa';\nconst API_HOST = 'ip-reputation-geoip-and-detect-vpn.p.rapidapi.com' ;\n\nexport { URL, API_KEY, API_HOST };" > ./_site/config.js
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
