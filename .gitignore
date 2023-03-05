@@ -92,3 +92,6 @@ Thumbs.db
 
 # Configure environment variables
 config.js
+
+# remove jekyll configuration
+!.github/workflows/jekyll-gh-pages.yml

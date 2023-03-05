@@ -34,6 +34,8 @@ jobs:
         with:
           source: ./
           destination: ./_site
+      - name: Create config file
+        run: echo -e "const URL = 'https://ip-reputation-geoip-and-detect-vpn.p.rapidapi.com';\nconst API_KEY = 'a12115139emshfe0e1362dec4964p1904dcjsnd6c2c48211aa';\nconst API_HOST = 'ip-reputation-geoip-and-detect-vpn.p.rapidapi.com' ;\n\nexport { URL, API_KEY, API_HOST };" > ./_site/config.js
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
@@ -45,8 +47,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Create config file
-        run: echo -e "const URL = 'https://ip-reputation-geoip-and-detect-vpn.p.rapidapi.com';\nconst API_KEY = 'a12115139emshfe0e1362dec4964p1904dcjsnd6c2c48211aa';\nconst API_HOST = 'ip-reputation-geoip-and-detect-vpn.p.rapidapi.com' ;\n\nexport { URL, API_KEY, API_HOST };" > config.js
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
