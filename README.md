@@ -22,14 +22,19 @@ these values can be obtained from API: [https://rapidapi.com](https://rapidapi.c
 
 PicoCSS is a small styles library [https://picocss.com/docs/](https://picocss.com/docs/)
 
+### SVG
+
+Used [https://www.svgrepo.com/](https://www.svgrepo.com/) to get some icons.
+
 ## TODO: pending task to do
 
-- [x] Use environment variables.
-- [x] Add navigation menu.
-- [ ] Add Dark mode.
-- [ ] Use a pattern on input to verify is a valid IP.
-- [ ] Automatic deploy on commit or merge on master.
-- [ ] Format final results with UI.
+-   [x] Use environment variables.
+-   [x] Add navigation menu.
+-   [x] Add Dark mode.
+    -   [ ] Fix issues with colors, check https://www.youtube.com/watch?v=S-T9XoCMwt4 
+-   [ ] Use a pattern on input to verify is a valid IP.
+-   [ ] Automatic deploy on commit or merge on master.
+-   [ ] Format final results with UI.
 
 ## Documentation
 
