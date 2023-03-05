@@ -31,9 +31,9 @@ Used [https://www.svgrepo.com/](https://www.svgrepo.com/) to get some icons.
 -   [x] Use environment variables.
 -   [x] Add navigation menu.
 -   [x] Add Dark mode.
-    -   [ ] Fix issues with colors, check https://www.youtube.com/watch?v=S-T9XoCMwt4 
+    -   [x] Fix issues with colors, check https://www.youtube.com/watch?v=S-T9XoCMwt4 
 -   [ ] Use a pattern on input to verify is a valid IP.
--   [ ] Automatic deploy on commit or merge on master.
+-   [x] Automatic deploy on commit or merge on master, Jekyll configured.
 -   [ ] Format final results with UI.
 
 ## Documentation
