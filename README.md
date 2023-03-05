@@ -1,3 +1,5 @@
+Deployed on  [Host Analyser](https://necrifede.github.io/host-analyser/)
+
 # Host Analyser
 
 Retrieve information about a host.
@@ -15,6 +17,7 @@ export { URL, API_KEY, API_HOST };
 ```
 
 these values can be obtained from API: [https://rapidapi.com](https://rapidapi.com/Top-Rated/api/ip-reputation-geoip-and-detect-vpn)
+
 
 ## Dependency libraries
 
