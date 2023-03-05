@@ -25,10 +25,11 @@ PicoCSS is a small styles library [https://picocss.com/docs/](https://picocss.co
 ## TODO: pending task to do
 
 - [x] Use environment variables.
-- [x] Add navigation menu
-- [] Use a pattern on input to verify is a valid IP.
-- [] Automatic deploy on commit or merge on master.
-- [] Format final results with UI.
+- [x] Add navigation menu.
+- [ ] Add Dark mode.
+- [ ] Use a pattern on input to verify is a valid IP.
+- [ ] Automatic deploy on commit or merge on master.
+- [ ] Format final results with UI.
 
 ## Documentation
 
